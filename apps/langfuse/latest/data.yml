@@ -1,0 +1,102 @@
+additionalProperties:
+  formFields:
+    - default: 3000
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Web Port
+      labelZh: Web端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "http://localhost:3000"
+      edit: true
+      envKey: NEXTAUTH_URL
+      labelEn: NextAuth URL
+      labelZh: NextAuth URL
+      required: false
+      type: text
+    - default: "9090"
+      edit: true
+      envKey: MINIO_PORT_S3
+      labelEn: Minio S3 Port
+      labelZh: Minio S3端口
+      required: false
+      rule: paramPort
+      type: number
+    - default: mysecret
+      edit: true
+      envKey: NEXTAUTH_SECRET
+      labelEn: NextAuth Secret
+      labelZh: NextAuth密钥
+      required: true
+      type: password
+    - default: mysalt
+      edit: true
+      envKey: SALT
+      labelEn: Salt
+      labelZh: 加密盐
+      required: true
+      type: password
+    - default: "0000000000000000000000000000000000000000000000000000000000000000"
+      edit: true
+      envKey: ENCRYPTION_KEY
+      labelEn: Encryption Key
+      labelZh: 加密密钥
+      required: true
+      type: password
+    - default: myredissecret
+      edit: true
+      envKey: REDIS_AUTH
+      labelEn: Redis Password
+      labelZh: Redis密码
+      required: true
+      type: password
+    - default: postgres
+      edit: true
+      envKey: POSTGRES_USER
+      labelEn: Postgres User
+      labelZh: Postgres用户
+      required: true
+      type: text
+    - default: postgres
+      edit: true
+      envKey: POSTGRES_PASSWORD
+      labelEn: Postgres Password
+      labelZh: Postgres密码
+      required: true
+      type: password
+    - default: postgres
+      edit: true
+      envKey: POSTGRES_DB
+      labelEn: Postgres Database
+      labelZh: Postgres数据库
+      required: true
+      type: text
+    - default: clickhouse
+      edit: true
+      envKey: CLICKHOUSE_USER
+      labelEn: Clickhouse User
+      labelZh: Clickhouse用户
+      required: true
+      type: text
+    - default: clickhouse
+      edit: true
+      envKey: CLICKHOUSE_PASSWORD
+      labelEn: Clickhouse Password
+      labelZh: Clickhouse密码
+      required: true
+      type: password
+    - default: minio
+      edit: true
+      envKey: MINIO_ROOT_USER
+      labelEn: Minio User
+      labelZh: Minio用户
+      required: true
+      type: text
+    - default: miniosecret
+      edit: true
+      envKey: MINIO_ROOT_PASSWORD
+      labelEn: Minio Password
+      labelZh: Minio密码
+      required: true
+      type: password

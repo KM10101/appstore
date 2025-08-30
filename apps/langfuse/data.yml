@@ -1,0 +1,19 @@
+name: Langfuse
+tags:
+  - 开发工具
+title: LLM 应用监控平台
+description: 开源的大型语言模型工程平台，提供可观测性、指标、评估、提示管理等功能
+additionalProperties:
+  key: langfuse
+  name: Langfuse
+  tags:
+    - Development
+  shortDescZh: 开源的LLM应用监控平台
+  shortDescEn: Open-source LLM engineering platform for observability and monitoring
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://langfuse.com
+  github: https://github.com/langfuse/langfuse
+  document: https://langfuse.com/docs
