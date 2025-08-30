@@ -1,0 +1,19 @@
+name: Dify
+tags:
+  - AI / 大模型
+title: 开源的LLM应用开发平台
+description: 开源的LLM应用开发平台，直观的界面结合了AI工作流、RAG管道、Agent功能、模型管理、可观测性功能等，让您快速从原型到生产
+additionalProperties:
+  key: dify
+  name: Dify
+  tags:
+    - AI
+  shortDescZh: 开源的LLM应用开发平台
+  shortDescEn: Open-source LLM app development platform
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://dify.ai
+  github: https://github.com/langgenius/dify
+  document: https://docs.dify.ai

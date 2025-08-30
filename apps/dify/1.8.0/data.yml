@@ -1,0 +1,51 @@
+additionalProperties:
+  formFields:
+    - default: 40080
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Web Port
+      labelZh: Web端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: postgres
+      edit: true
+      envKey: DB_USERNAME
+      labelEn: Database Username
+      labelZh: 数据库用户名
+      required: true
+      type: text
+    - default: "difyai123456"
+      edit: true
+      envKey: DB_PASSWORD
+      labelEn: Database Password
+      labelZh: 数据库密码
+      random: true
+      required: true
+      rule: paramComplexity
+      type: password
+    - default: dify
+      edit: true
+      envKey: DB_DATABASE
+      labelEn: Database Name
+      labelZh: 数据库名称
+      required: true
+      type: text
+    - default: "sk-8a2f5e1d9c7b4n6mKp3qWx9vRs7tYu4iLo6hGj1wFt8oPn5s"
+      edit: true
+      envKey: SECRET_KEY
+      labelEn: Secret Key
+      labelZh: 应用密钥
+      random: true
+      required: true
+      rule: paramComplexity
+      type: password
+    - default: "difyai123456"
+      edit: true
+      envKey: REDIS_PASSWORD
+      labelEn: Redis Password
+      labelZh: Redis密码
+      random: true
+      required: true
+      rule: paramComplexity
+      type: password
